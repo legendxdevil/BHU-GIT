@@ -1,0 +1,95 @@
+[
+  {
+    "versionId": "V-1003-1",
+    "parcelId": "P-1003",
+    "parentVersionId": null,
+    "versionNumber": 1,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2010, 28.6020],
+          [77.2020, 28.6020],
+          [77.2020, 28.6030],
+          [77.2010, 28.6030],
+          [77.2010, 28.6020]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/3",
+      "ward": "Ward 12",
+      "ownerName": "Suresh Patel (Legacy)",
+      "landUse": "Agricultural",
+      "deedAreaSqM": 1200,
+      "calculatedAreaSqM": 1200.0
+    },
+    "sourceIds": ["SRC-2019-CADASTRAIL"],
+    "evidenceSummary": [
+      {
+        "sourceId": "SRC-2019-CADASTRAIL",
+        "sourceType": "CADASTRAIL_MAP",
+        "datasetName": "Legacy Paper Revenue Map 2019",
+        "weight": 0.72,
+        "description": "Initial digitised paper khasra boundary",
+        "captureDate": "2019-04-10"
+      }
+    ],
+    "confidenceScore": 0.72,
+    "decision": "imported",
+    "reviewerId": "system_admin",
+    "reviewerName": "System Import",
+    "reason": "Base system import from 2019 paper cadastral map",
+    "createdAt": 1770000000000
+  },
+  {
+    "versionId": "V-1003-2",
+    "parcelId": "P-1003",
+    "parentVersionId": "V-1003-1",
+    "versionNumber": 2,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2012, 28.6022],
+          [77.2021, 28.6022],
+          [77.2021, 28.6033],
+          [77.2012, 28.6033],
+          [77.2012, 28.6022]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/3",
+      "ward": "Ward 12",
+      "zone": "Residential",
+      "ownerName": "Suresh Patel",
+      "landUse": "Residential",
+      "deedAreaSqM": 1240,
+      "calculatedAreaSqM": 1240.0,
+      "address": "Plot 3, Park Avenue, Ward 12"
+    },
+    "sourceIds": ["SRC-2019-CADASTRAIL", "SRC-2024-MUNICIPAL"],
+    "evidenceSummary": [
+      {
+        "sourceId": "SRC-2024-MUNICIPAL",
+        "sourceType": "MUNICIPAL_GIS",
+        "datasetName": "Municipal GIS Tax Database 2024",
+        "weight": 0.85,
+        "description": "Updated land use from Agricultural to Residential after municipal building permit",
+        "captureDate": "2024-11-20"
+      }
+    ],
+    "confidenceScore": 0.85,
+    "decision": "approve",
+    "reviewerId": "user_officer_81",
+    "reviewerName": "Review Officer A",
+    "reason": "Updated land use classification following municipal building sanction plan approval.",
+    "changesSummary": {
+      "areaDeltaSqM": 40.0,
+      "maxBoundaryDeviationM": 0.8,
+      "changedAttributes": ["landUse", "deedAreaSqM"]
+    },
+    "createdAt": 1776000000000
+  }
+]

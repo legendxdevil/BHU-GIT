@@ -1,0 +1,45 @@
+[
+  {
+    "documentId": "DOC-901",
+    "documentTitle": "Legacy Khasra Record - Survey 42/3",
+    "documentType": "khasra",
+    "fileName": "khasra_42_3_scan.png",
+    "uploadedBy": "officer_101",
+    "uploadedAt": 1778000000000,
+    "processingStatus": "extracted",
+    "rawText": "REVENUE DEPARTMENT GOVT RECORD\nKhasra No: 42/3\nWard: 12 (Central Zone)\nOwner Name: Suresh Patel s/o Mohan Patel\nTotal Registered Area: 1240 Sq.Mtrs\nLand Classification: Abadi / Residential\nBoundary Remarks: East side adjoins Nala road, West side adjoins Survey 42/1.",
+    "ocrConfidence": 0.91,
+    "extractedFields": [
+      {
+        "label": "Survey Number",
+        "key": "surveyNumber",
+        "extractedValue": "42/3",
+        "confidence": 0.98,
+        "isVerified": true
+      },
+      {
+        "label": "Ward",
+        "key": "ward",
+        "extractedValue": "Ward 12",
+        "confidence": 0.95,
+        "isVerified": true
+      },
+      {
+        "label": "Registered Owner",
+        "key": "ownerName",
+        "extractedValue": "Suresh Patel",
+        "confidence": 0.92,
+        "isVerified": true
+      },
+      {
+        "label": "Recorded Area",
+        "key": "deedAreaSqM",
+        "extractedValue": "1240",
+        "confidence": 0.89,
+        "isVerified": true
+      }
+    ],
+    "associatedParcelId": "P-1003",
+    "associatedSurveyNumber": "42/3"
+  }
+]

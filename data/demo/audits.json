@@ -1,0 +1,22 @@
+[
+  {
+    "logId": "LOG-101",
+    "parcelId": "P-1003",
+    "action": "PROCESS_COMPLETE",
+    "actorId": "system_admin",
+    "actorName": "Ingestion Engine",
+    "actorRole": "admin",
+    "reason": "GNSS Survey dataset ingested and candidates matched",
+    "timestamp": 1780000000000
+  },
+  {
+    "logId": "LOG-102",
+    "parcelId": "P-1003",
+    "action": "CONFLICT_CREATED",
+    "actorId": "system_admin",
+    "actorName": "Conflict Detection Engine",
+    "actorRole": "admin",
+    "reason": "Geometry discrepancy of 1.7m max boundary deviation detected between 2019 Cadastral and 2026 GNSS survey.",
+    "timestamp": 1780000050000
+  }
+]

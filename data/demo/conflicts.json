@@ -1,0 +1,298 @@
+[
+  {
+    "conflictId": "C-884",
+    "parcelId": "P-1003",
+    "parcelNumber": "42/3",
+    "ward": "Ward 12",
+    "conflictType": "overlap",
+    "sourceAId": "SRC-GNSS-01",
+    "sourceAName": "Ward 12 CORS GNSS Survey",
+    "sourceBId": "SRC-LEGACY-02",
+    "sourceBName": "1994 Revenue Department Register",
+    "incomingGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2010, 28.6020],
+          [77.2023, 28.6020],
+          [77.2023, 28.6033],
+          [77.2010, 28.6033],
+          [77.2010, 28.6020]
+        ]
+      ]
+    },
+    "currentGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2012, 28.6022],
+          [77.2021, 28.6022],
+          [77.2021, 28.6033],
+          [77.2012, 28.6033],
+          [77.2012, 28.6022]
+        ]
+      ]
+    },
+    "measurements": {
+      "areaDifferenceSqM": 12.0,
+      "areaDifferencePercent": 0.96,
+      "maxBoundaryDeviationM": 14.8,
+      "shapeOverlapRatio": 0.91,
+      "discrepantAttributes": [
+        {
+          "field": "ownerName",
+          "valueA": "Suresh Patel",
+          "valueB": "Suresh Patel (Legacy)"
+        }
+      ]
+    },
+    "proposal": {
+      "proposedGeometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.2012, 28.6021],
+            [77.2021, 28.6021],
+            [77.2021, 28.6033],
+            [77.2012, 28.6033],
+            [77.2012, 28.6021]
+          ]
+        ]
+      },
+      "proposedAttributes": {
+        "surveyNumber": "42/3",
+        "ownerName": "Suresh Patel",
+        "landUse": "Residential"
+      },
+      "explanationReasons": [
+        "CORS GNSS Survey provides sub-centimeter spatial precision (reliability score 98%).",
+        "Resolves 111.2 m² geometry overlap with adjacent Plot 42/4."
+      ],
+      "confidenceScore": 0.95,
+      "supportingSourceIds": ["SRC-GNSS-01"]
+    },
+    "severity": "critical",
+    "status": "pending",
+    "assignedTo": "Review Officer A",
+    "createdAt": 1780000000000,
+    "updatedAt": 1780000000000
+  },
+  {
+    "conflictId": "C-885",
+    "parcelId": "P-1004",
+    "parcelNumber": "42/4",
+    "ward": "Ward 12",
+    "conflictType": "area_discrepancy",
+    "sourceAId": "SRC-DRONE-03",
+    "sourceAName": "High-Res Drone Orthophoto 2026",
+    "sourceBId": "SRC-LEGACY-02",
+    "sourceBName": "1994 Revenue Department Register",
+    "incomingGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2020, 28.6022],
+          [77.2033, 28.6022],
+          [77.2033, 28.6033],
+          [77.2020, 28.6033],
+          [77.2020, 28.6022]
+        ]
+      ]
+    },
+    "currentGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2022, 28.6022],
+          [77.2033, 28.6022],
+          [77.2033, 28.6033],
+          [77.2022, 28.6033],
+          [77.2022, 28.6022]
+        ]
+      ]
+    },
+    "measurements": {
+      "areaDifferenceSqM": 25.0,
+      "areaDifferencePercent": 1.78,
+      "maxBoundaryDeviationM": 6.2,
+      "shapeOverlapRatio": 0.96,
+      "discrepantAttributes": [
+        {
+          "field": "deedAreaSqM",
+          "valueA": 1425,
+          "valueB": 1400
+        }
+      ]
+    },
+    "proposal": {
+      "proposedGeometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.2022, 28.6022],
+            [77.2033, 28.6022],
+            [77.2033, 28.6033],
+            [77.2022, 28.6033],
+            [77.2022, 28.6022]
+          ]
+        ]
+      },
+      "proposedAttributes": {
+        "surveyNumber": "42/4",
+        "ownerName": "Vikram Singh",
+        "landUse": "Mixed Use"
+      },
+      "explanationReasons": [
+        "Drone imagery aligns with physical boundary wall.",
+        "Adjusts area discrepancy of +25 m² against registered deed."
+      ],
+      "confidenceScore": 0.88,
+      "supportingSourceIds": ["SRC-DRONE-03"]
+    },
+    "severity": "high",
+    "status": "in_review",
+    "assignedTo": "Review Officer A",
+    "createdAt": 1780000000000,
+    "updatedAt": 1780000000000
+  },
+  {
+    "conflictId": "C-886",
+    "parcelId": "P-1008",
+    "parcelNumber": "43/2",
+    "ward": "Ward 14",
+    "conflictType": "overlap",
+    "sourceAId": "SRC-MUNI-04",
+    "sourceAName": "Municipal Property Tax GIS 2025",
+    "sourceBId": "SRC-LEGACY-02",
+    "sourceBName": "1994 Revenue Register",
+    "incomingGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2046, 28.6023],
+          [77.2056, 28.6023],
+          [77.2056, 28.6033],
+          [77.2046, 28.6033],
+          [77.2046, 28.6023]
+        ]
+      ]
+    },
+    "currentGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2046, 28.6023],
+          [77.2056, 28.6023],
+          [77.2056, 28.6033],
+          [77.2046, 28.6033],
+          [77.2046, 28.6023]
+        ]
+      ]
+    },
+    "measurements": {
+      "areaDifferenceSqM": 12.4,
+      "areaDifferencePercent": 0.82,
+      "maxBoundaryDeviationM": 4.1,
+      "shapeOverlapRatio": 0.95
+    },
+    "proposal": {
+      "proposedGeometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.2046, 28.6023],
+            [77.2056, 28.6023],
+            [77.2056, 28.6033],
+            [77.2046, 28.6033],
+            [77.2046, 28.6023]
+          ]
+        ]
+      },
+      "proposedAttributes": {
+        "surveyNumber": "43/2",
+        "ownerName": "Sunita Verma",
+        "landUse": "Commercial"
+      },
+      "explanationReasons": [
+        "Aligns municipal tax record boundaries with survey points."
+      ],
+      "confidenceScore": 0.89,
+      "supportingSourceIds": ["SRC-MUNI-04"]
+    },
+    "severity": "high",
+    "status": "pending",
+    "assignedTo": "Field Officer B",
+    "createdAt": 1780000000000,
+    "updatedAt": 1780000000000
+  },
+  {
+    "conflictId": "C-887",
+    "parcelId": "P-1010",
+    "parcelNumber": "44/1",
+    "ward": "Ward 08",
+    "conflictType": "unverified_survey",
+    "sourceAId": "SRC-LEGACY-05",
+    "sourceAName": "Hand-drawn Khasra Map 1982",
+    "sourceBId": "SRC-LEGACY-02",
+    "sourceBName": "1994 Revenue Register",
+    "incomingGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2012, 28.6001],
+          [77.2023, 28.6001],
+          [77.2023, 28.6011],
+          [77.2012, 28.6011],
+          [77.2012, 28.6001]
+        ]
+      ]
+    },
+    "currentGeometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2012, 28.6001],
+          [77.2023, 28.6001],
+          [77.2023, 28.6011],
+          [77.2012, 28.6011],
+          [77.2012, 28.6001]
+        ]
+      ]
+    },
+    "measurements": {
+      "areaDifferenceSqM": 40.5,
+      "areaDifferencePercent": 2.45,
+      "maxBoundaryDeviationM": 8.5,
+      "shapeOverlapRatio": 0.90
+    },
+    "proposal": {
+      "proposedGeometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.2012, 28.6001],
+            [77.2023, 28.6001],
+            [77.2023, 28.6011],
+            [77.2012, 28.6011],
+            [77.2012, 28.6001]
+          ]
+        ]
+      },
+      "proposedAttributes": {
+        "surveyNumber": "44/1",
+        "ownerName": "Gurpreet Singh",
+        "landUse": "Agricultural"
+      },
+      "explanationReasons": [
+        "Requires fresh ground CORS survey verification."
+      ],
+      "confidenceScore": 0.76,
+      "supportingSourceIds": ["SRC-LEGACY-05"]
+    },
+    "severity": "medium",
+    "status": "pending",
+    "assignedTo": "Field Officer B",
+    "createdAt": 1780000000000,
+    "updatedAt": 1780000000000
+  }
+]

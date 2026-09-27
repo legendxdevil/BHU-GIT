@@ -1,0 +1,398 @@
+[
+  {
+    "parcelId": "P-1001",
+    "parcelNumber": "42/1",
+    "status": "approved",
+    "currentVersionId": "V-1001-2",
+    "ward": "Ward 12",
+    "zone": "Residential A",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2012, 28.6012],
+          [77.2021, 28.6012],
+          [77.2021, 28.6021],
+          [77.2012, 28.6021],
+          [77.2012, 28.6012]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/1",
+      "ward": "Ward 12",
+      "zone": "Residential",
+      "ownerName": "Rajesh Kumar",
+      "landUse": "Residential",
+      "deedAreaSqM": 1150,
+      "calculatedAreaSqM": 1148.5,
+      "address": "Plot 1, Block C, Ward 12"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1002",
+    "parcelNumber": "42/2",
+    "status": "approved",
+    "currentVersionId": "V-1002-1",
+    "ward": "Ward 12",
+    "zone": "Commercial B",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2022, 28.6012],
+          [77.2032, 28.6012],
+          [77.2032, 28.6021],
+          [77.2022, 28.6021],
+          [77.2022, 28.6012]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/2",
+      "ward": "Ward 12",
+      "zone": "Commercial",
+      "ownerName": "Anita Sharma",
+      "landUse": "Commercial",
+      "deedAreaSqM": 1280,
+      "calculatedAreaSqM": 1278.2,
+      "address": "Plot 2, Main Road, Ward 12"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1003",
+    "parcelNumber": "42/3",
+    "status": "conflict",
+    "currentVersionId": "V-1003-2",
+    "ward": "Ward 12",
+    "zone": "Residential A",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2012, 28.6022],
+          [77.2021, 28.6022],
+          [77.2021, 28.6033],
+          [77.2012, 28.6033],
+          [77.2012, 28.6022]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/3",
+      "ward": "Ward 12",
+      "zone": "Residential",
+      "ownerName": "Suresh Patel",
+      "landUse": "Residential",
+      "deedAreaSqM": 1240,
+      "calculatedAreaSqM": 1240.0,
+      "address": "Plot 3, Park Avenue, Ward 12"
+    },
+    "activeConflictId": "C-884",
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1004",
+    "parcelNumber": "42/4",
+    "status": "conflict",
+    "currentVersionId": "V-1004-1",
+    "ward": "Ward 12",
+    "zone": "Mixed Use",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2020, 28.6022],
+          [77.2033, 28.6022],
+          [77.2033, 28.6033],
+          [77.2020, 28.6033],
+          [77.2020, 28.6022]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/4",
+      "ward": "Ward 12",
+      "zone": "Mixed Use",
+      "ownerName": "Vikram Singh",
+      "landUse": "Mixed Use",
+      "deedAreaSqM": 1400,
+      "calculatedAreaSqM": 1405.0,
+      "address": "Plot 4, Market Complex, Ward 12"
+    },
+    "activeConflictId": "C-885",
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1005",
+    "parcelNumber": "42/5",
+    "status": "approved",
+    "currentVersionId": "V-1005-1",
+    "ward": "Ward 12",
+    "zone": "Institutional",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2034, 28.6012],
+          [77.2045, 28.6012],
+          [77.2045, 28.6025],
+          [77.2034, 28.6025],
+          [77.2034, 28.6012]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/5",
+      "ward": "Ward 12",
+      "zone": "Institutional",
+      "ownerName": "Municipal School Trust",
+      "landUse": "Institutional",
+      "deedAreaSqM": 1850,
+      "calculatedAreaSqM": 1848.0,
+      "address": "Municipal School Campus, Ward 12"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1006",
+    "parcelNumber": "42/6",
+    "status": "approved",
+    "currentVersionId": "V-1006-1",
+    "ward": "Ward 12",
+    "zone": "Green Belt",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2034, 28.6026],
+          [77.2045, 28.6026],
+          [77.2045, 28.6035],
+          [77.2034, 28.6035],
+          [77.2034, 28.6026]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "42/6",
+      "ward": "Ward 12",
+      "zone": "Green Belt",
+      "ownerName": "Urban Development Authority",
+      "landUse": "Park / Open Space",
+      "deedAreaSqM": 1320,
+      "calculatedAreaSqM": 1319.4,
+      "address": "Community Garden, Ward 12"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1007",
+    "parcelNumber": "43/1",
+    "status": "approved",
+    "currentVersionId": "V-1007-1",
+    "ward": "Ward 14",
+    "zone": "Residential B",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2046, 28.6012],
+          [77.2056, 28.6012],
+          [77.2056, 28.6022],
+          [77.2046, 28.6022],
+          [77.2046, 28.6012]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "43/1",
+      "ward": "Ward 14",
+      "zone": "Residential",
+      "ownerName": "Rameshwar Gupta",
+      "landUse": "Residential",
+      "deedAreaSqM": 1420,
+      "calculatedAreaSqM": 1418.9,
+      "address": "Plot 10, Civil Lines, Ward 14"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1008",
+    "parcelNumber": "43/2",
+    "status": "pending_review",
+    "currentVersionId": "V-1008-1",
+    "ward": "Ward 14",
+    "zone": "Commercial A",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2046, 28.6023],
+          [77.2056, 28.6023],
+          [77.2056, 28.6033],
+          [77.2046, 28.6033],
+          [77.2046, 28.6023]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "43/2",
+      "ward": "Ward 14",
+      "zone": "Commercial",
+      "ownerName": "Sunita Verma",
+      "landUse": "Commercial",
+      "deedAreaSqM": 1500,
+      "calculatedAreaSqM": 1512.4,
+      "address": "Plot 12, Station Road, Ward 14"
+    },
+    "activeConflictId": "C-886",
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1009",
+    "parcelNumber": "43/3",
+    "status": "approved",
+    "currentVersionId": "V-1009-1",
+    "ward": "Ward 14",
+    "zone": "Public Utility",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2057, 28.6012],
+          [77.2068, 28.6012],
+          [77.2068, 28.6024],
+          [77.2057, 28.6024],
+          [77.2057, 28.6012]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "43/3",
+      "ward": "Ward 14",
+      "zone": "Public Utility",
+      "ownerName": "State Electricity Board",
+      "landUse": "Public Utility",
+      "deedAreaSqM": 2100,
+      "calculatedAreaSqM": 2100.0,
+      "address": "Substation 4, Ward 14"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1010",
+    "parcelNumber": "44/1",
+    "status": "conflict",
+    "currentVersionId": "V-1010-1",
+    "ward": "Ward 08",
+    "zone": "Agricultural / Semi-Urban",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2012, 28.6001],
+          [77.2023, 28.6001],
+          [77.2023, 28.6011],
+          [77.2012, 28.6011],
+          [77.2012, 28.6001]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "44/1",
+      "ward": "Ward 08",
+      "zone": "Agricultural",
+      "ownerName": "Gurpreet Singh",
+      "landUse": "Agricultural",
+      "deedAreaSqM": 1650,
+      "calculatedAreaSqM": 1690.5,
+      "address": "Khasra 44/1, Bypass Road, Ward 08"
+    },
+    "activeConflictId": "C-887",
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1011",
+    "parcelNumber": "44/2",
+    "status": "approved",
+    "currentVersionId": "V-1011-1",
+    "ward": "Ward 08",
+    "zone": "Residential C",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2024, 28.6001],
+          [77.2035, 28.6001],
+          [77.2035, 28.6011],
+          [77.2024, 28.6011],
+          [77.2024, 28.6001]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "44/2",
+      "ward": "Ward 08",
+      "zone": "Residential",
+      "ownerName": "Priya Nambiar",
+      "landUse": "Residential",
+      "deedAreaSqM": 1380,
+      "calculatedAreaSqM": 1379.0,
+      "address": "Plot 8, Green View, Ward 08"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  },
+  {
+    "parcelId": "P-1012",
+    "parcelNumber": "45/1",
+    "status": "pending_review",
+    "currentVersionId": "V-1012-1",
+    "ward": "Ward 08",
+    "zone": "Industrial Light",
+    "currentGeoJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [77.2036, 28.6001],
+          [77.2048, 28.6001],
+          [77.2048, 28.6011],
+          [77.2036, 28.6011],
+          [77.2036, 28.6001]
+        ]
+      ]
+    },
+    "attributes": {
+      "surveyNumber": "45/1",
+      "ward": "Ward 08",
+      "zone": "Industrial",
+      "ownerName": "Mehta Logistics Pvt Ltd",
+      "landUse": "Industrial",
+      "deedAreaSqM": 2400,
+      "calculatedAreaSqM": 2392.1,
+      "address": "Shed 4, Industrial Area, Ward 08"
+    },
+    "activeConflictId": null,
+    "updatedAt": 1780000000000,
+    "createdAt": 1770000000000
+  }
+]
