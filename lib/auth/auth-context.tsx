@@ -66,7 +66,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 const STORAGE_KEY = "bhugit_active_user";
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [user, setUser] = useState<DemoUser | null>(DEMO_USERS[USER_ROLES.REVIEW_OFFICER]);
+  const [user, setUser] = useState<DemoUser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
